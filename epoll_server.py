@@ -15,7 +15,7 @@ ADDR = (HOST, PORT)
 # 创建tcp套接字   是监听套接字
 tcp_socket = socket()
 tcp_socket.bind(ADDR)
-tcp_socket.listen(5)
+tcp_socket.listen(2)
 
 # 设置为非阻塞
 tcp_socket.setblocking(False)

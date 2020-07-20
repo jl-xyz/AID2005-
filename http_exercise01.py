@@ -8,7 +8,7 @@ from socket import *
 # 创建tc套接字
 s = socket()
 s.bind(('0.0.0.0', 8800))
-s.listen(5)
+s.listen(7)
 
 while True:
     c, addr = s.accept()
